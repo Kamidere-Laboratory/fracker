@@ -1,0 +1,25 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "command": "pnpm run format",
+      "name": "Format",
+      "request": "launch",
+      "type": "node-terminal",
+      "autoAttachChildProcesses": false,
+      "trace": false,
+    },
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Attach to node",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "port": 5858
+    }
+  ]
+}

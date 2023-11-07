@@ -1,0 +1,25 @@
+# Ignore all top level files and folders
+/*
+node_modules
+bundle
+
+!packages/
+!migrations/
+!adr/
+!deployment/
+
+!package.json
+!pnpm-lock.yaml
+!pnpm-workspace.yaml
+
+!.vscode/
+!.env.example
+!.eslintrc.cjs
+!.gitattributes
+!.gitignore
+!.prettierrc.js
+!.prettierignore
+!.npmrc
+!Makefile
+!LICENSE
+!README.md
